@@ -8,6 +8,8 @@
 # i3 config file (v4)
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
+# execute Polybar
+exec_always --no-startup-id polybar
 
 set $mod Mod4
 
@@ -45,7 +47,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec --no-startup-id rxvt 
+bindsym $mod+Return exec --no-startup-id urxvt 
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -179,8 +181,5 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# Start i3bar to display a workspace bar (plus the system information i3status
-# finds out, if available)
-bar {
-        status_command i3status
-}
+default_border none
+default_floating_border 1pixel
