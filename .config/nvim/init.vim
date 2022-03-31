@@ -9,12 +9,15 @@ set background=dark
 syntax on
 
 call plug#begin()
-
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+# TYPING PLUGINS
 Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/vim-easy-align'
+
+# DISPLAY INFORMATION PLUGINS
+Plug 'itchyny/lightline.vim'
+
+# THEME PLUGINS
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 
 call plug#end()

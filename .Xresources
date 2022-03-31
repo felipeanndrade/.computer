@@ -61,7 +61,7 @@ URxvt*urgentOnBell: true
 URxvt*scrollTtyOutput: false
 URxvt*scrollWithBuffer: true
 URxvt*scrollTtyKeypress: true
-URxvt.font: xft:Consolas:pixelsize=12, xft:Segoe UI Symbol:style=Regular:pixelsize=12, xft:Unifont:pixelsize=12
+URxvt.font: xft:Inconsolata:size=14 
 URxvt.letterSpace : -2 ! Put characters slightly closer together
 URxvt.termName : rxvt-unicode-256color
 !Urxvt*termName:  screen-256color
