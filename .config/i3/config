@@ -9,7 +9,7 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 # execute Polybar
-exec_always --no-startup-id polybar  
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 set $mod Mod4
 
