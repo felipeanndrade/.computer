@@ -17,6 +17,7 @@
 .zshrc.pre-oh-my-zsh
 .gnupg/
 .npm/
+.fehbg/
 node_modules/
 package-lock.json
 package.json
