@@ -16,8 +16,11 @@
 .zsh_history
 .zshrc.pre-oh-my-zsh
 .gnupg/
+.npm/
+node_modules/
+package-lock.json
+package.json
 install/
-wallpapers/
 ufrn/
 Downloads/
 

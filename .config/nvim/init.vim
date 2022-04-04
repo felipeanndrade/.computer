@@ -23,14 +23,15 @@ Plug 'itchyny/lightline.vim'
 " THEME PLUGINS
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+Plug 'catppuccin/nvim', {'as': 'catppuccin'}
 
 call plug#end()
 
-let g:lightline = {'colorscheme': 'tokyonight'}
+let g:lightline = {'colorscheme': 'catppuccin'}
 
 if has('termguicolors')
 	set termguicolors
 endif
 
-colorscheme tokyonight       
+colorscheme catppuccin       
 
