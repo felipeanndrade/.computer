@@ -11,7 +11,7 @@
 # execute Polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
-exec_always --no-startup-id feh --bg-fill $HOME/wallpapers/wall.jpg
+exec_always --no-startup-id feh --bg-fill $HOME/.wallpaper.jpg
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font

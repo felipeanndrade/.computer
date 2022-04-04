@@ -2,7 +2,40 @@
 *.background:    #1A1B26
 *.cursorColor:   #4B2882
 *.highlightColor:#3A3F4B
+*background: #1E1E2E
+*foreground: #D9E0EE
 
+! Gray
+*color0: #6E6C7E
+*color8: #988BA2
+
+! Red
+*color1: #F28FAD
+*color9: #F28FAD
+
+! Green
+*color2: #ABE9B3
+*color10: #ABE9B3
+
+! Yellow
+*color3: #FAE3B0
+*color11:  #FAE3B0
+
+! Blue
+*color4: #96CDFB
+*color12: #96CDFB
+
+! Maguve
+*color5: #DDB6F2
+*color13: #DDB6F2
+
+! Pink
+*color6: #F5C2E7
+*color14: #F5C2E7
+
+! Whites
+*color7: #C3BAC6
+*color15: #D9E0EE
 !*fading:                  40
 !*fadeColor:               S_base03
 !*pointerColorBackground:  S_base01
@@ -18,32 +51,6 @@
 ! 5 Magenta   13 Magenta
 ! 6 Cyan      14 Cyan
 ! 7 White     15 White
-
-! Black colours
-*.color0:        #1A1B26
-*.color8:        #4E5173
-! Red colours
-*.color1:        #F7768E
-*.color9:        #E06C75
-! Yellow colours
-*.color2:        #E0AF68
-*.color10:       #D19A66
-! Green colours
-*.color3:        #9ECE6A
-*.color11:       #98C379
-! Blue colours
-*.color4:        #7AA2F7
-*.color12:       #61AFEF
-! Magenta (pink, !green) colours
-*.color5:        #9A7ECC
-*.color13:       #C678DD
-! Cyan (blue + green)
-*.color6:        #4ABAAF
-*.color14:       #56B6C2
-! White colours
-*.color7:        #ACB0D0
-*.color15:       #ABB2BF
-
 ! xterm.vt100.faceName:           Terminus:style=Regular:size=10
 ! xterm.vt100.faceNameDoublesize: Cyberbit:style=Regular:size=10
 
