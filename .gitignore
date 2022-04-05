@@ -25,4 +25,12 @@ install/
 ufrn/
 Downloads/
 .vscode/
+.ipython/
+.java/
+.pub-cache/
+Android/
 .config/Code/
+.android/
+.config/Google/
+.config/flutter/
+.flutter
