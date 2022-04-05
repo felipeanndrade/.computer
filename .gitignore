@@ -24,4 +24,5 @@ package.json
 install/
 ufrn/
 Downloads/
-
+.vscode/
+.config/Code/
