@@ -24,6 +24,7 @@ package.json
 install/
 ufrn/
 Downloads/
+development/
 .vscode/
 .ipython/
 .java/
@@ -34,3 +35,8 @@ Android/
 .config/Google/
 .config/flutter/
 .flutter
+.android/
+.pki
+.pub-cache
+.zcompdump-ship-5.8.1
+
