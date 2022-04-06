@@ -39,4 +39,5 @@ Android/
 .pki
 .pub-cache
 .zcompdump-ship-5.8.1
-
+.dart/
+.dartServer/
