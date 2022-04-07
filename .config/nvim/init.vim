@@ -24,6 +24,12 @@ Plug 'itchyny/lightline.vim'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'catppuccin/nvim', {'as': 'catppuccin'}
+ 
+" FLUTTER ENVIRONMENT
+Plug 'dart-lang/dart-vim-plugin'
+Plug 'thosakwe/vim-flutter'
+Plug 'natebosch/vim-lsc'
+Plug 'natebosch/vim-lsc-dart'
 
 call plug#end()
 
