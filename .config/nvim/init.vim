@@ -9,6 +9,7 @@ set background=dark
 syntax on
 
 call plug#begin()
+
 " TYPING PLUGINS
 Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
@@ -16,11 +17,12 @@ Plug 'junegunn/vim-easy-align'
 
 " TOOLS
 Plug 'romgrk/barbar.nvim'
+Plug 'preservim/nerdtree'
 
-" DISPLAY INFORMATION PLUGINS
+" DISPLAY 
 Plug 'itchyny/lightline.vim'
 
-" THEME PLUGINS
+" THEME 
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'catppuccin/nvim', {'as': 'catppuccin'}
