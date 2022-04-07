@@ -6,11 +6,15 @@ set shiftwidth=4
 set mouse=a
 set nocompatible
 set background=dark
+set clipboard=unnamedplus
 syntax on
 
 call plug#begin()
 
-" TYPING PLUGINS
+" STARTUP
+Plug 'mhinz/vim-startify'
+
+" LANGUAGE SERVER AND INDENTATION
 Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/vim-easy-align'
@@ -18,16 +22,16 @@ Plug 'junegunn/vim-easy-align'
 " TOOLS
 Plug 'romgrk/barbar.nvim'
 Plug 'preservim/nerdtree'
+
 " FUZZY FINDER
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 
-" DISPLAY 
+" DISPLAY INFORMATION
 Plug 'itchyny/lightline.vim'
 
 " THEME 
 Plug 'kyazdani42/nvim-web-devicons'
-Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'catppuccin/nvim', {'as': 'catppuccin'}
  
 " FLUTTER ENVIRONMENT
