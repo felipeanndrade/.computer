@@ -109,4 +109,5 @@ alias zshconfig="nvim $HOME/.zshrc"
 alias nvimconfig="nvim $HOME/.config/nvim/init.vim"
 alias tmuxconfig="nvim $HOME/.tmux.conf"
 alias gitignoreconfig="nvim $HOME/.gitignore"
-
+alias i3config="nvim $HOME/.config/i3/config"
+alias vi="nvim"
