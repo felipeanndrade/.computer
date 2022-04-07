@@ -18,6 +18,9 @@ Plug 'junegunn/vim-easy-align'
 " TOOLS
 Plug 'romgrk/barbar.nvim'
 Plug 'preservim/nerdtree'
+" FUZZY FINDER
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
 
 " DISPLAY 
 Plug 'itchyny/lightline.vim'
@@ -42,4 +45,8 @@ if has('termguicolors')
 endif
 
 colorscheme catppuccin       
+
+" NERD TREE KEYBINDINGS
+nnoremap <C-e> :NERDTreeToggle<CR>
+nnoremap <C-f><C-e> :NERDTreeFind<CR>
 
