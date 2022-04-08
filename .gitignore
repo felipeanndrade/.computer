@@ -41,3 +41,8 @@ Android/
 .zcompdump-ship-5.8.1
 .dart/
 .dartServer/
+.Xauthority
+.config/pacmixer/
+.gitconfig-stoom
+.shell.pre-oh-my-zsh
+.zcompdump-garage-5.8.1

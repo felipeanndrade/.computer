@@ -2,6 +2,9 @@
 	email = felipeanndrade@gmail.com
 	name = Felipe Andrade
 
+[includeIf "gitdir:/home/felps/development/stoom"]
+	path = $HOME/.gitconfig-stoom 
+
 [init]
 	defaultBranch=main
 

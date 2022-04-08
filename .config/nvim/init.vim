@@ -51,6 +51,7 @@ endif
 colorscheme catppuccin       
 
 " NERD TREE KEYBINDINGS
-nnoremap <C-e> :NERDTreeToggle<CR>
-nnoremap <C-f><C-e> :NERDTreeFind<CR>
+nnoremap <M-e> :NERDTreeToggle<CR>
+nnoremap <M-f><M-e> :NERDTreeFind<CR>
 
+" FLUTTER KEYBINDINGS
