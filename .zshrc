@@ -6,6 +6,7 @@ export ZSH="$HOME/.oh-my-zsh"
 
 export CHROME_EXECUTABLE="/sbin/google-chrome-stable"
 
+export TERM="alacritty"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -111,3 +112,4 @@ alias tmuxconfig="nvim $HOME/.tmux.conf"
 alias gitignoreconfig="nvim $HOME/.gitignore"
 alias i3config="nvim $HOME/.config/i3/config"
 alias vi="nvim"
+alias monitor="bpytop"
