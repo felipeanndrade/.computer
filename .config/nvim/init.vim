@@ -18,6 +18,7 @@ Plug 'mhinz/vim-startify'
 Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/vim-easy-align'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " TOOLS
 Plug 'romgrk/barbar.nvim'
@@ -55,3 +56,4 @@ nnoremap <M-e> :NERDTreeToggle<CR>
 nnoremap <M-f><M-e> :NERDTreeFind<CR>
 
 " FLUTTER KEYBINDINGS
+" COC KEYBINDINGS
