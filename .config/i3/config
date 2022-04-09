@@ -7,6 +7,11 @@
 
 # i3 config file (v4)
 #
+#
+# monitor config
+
+exec_always --no-startup-id xrandr --output HDMI-A-0 --auto --right-of DVI-D-0
+
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 # execute Polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
@@ -192,3 +197,8 @@ default_floating_border 1pixel
 gaps outer 3
 gaps inner 5 
 smart_gaps on
+
+# FLAMESHOT
+#
+bindsym $mod+p exec flameshot gui --clipboard --path $HOME/.screenshots/cropped/
+bindsym $mod+Shift+p exec flameshot full --clipboard --path $HOME/.screenshots/full/
