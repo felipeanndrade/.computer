@@ -7,6 +7,7 @@ set mouse=a
 set nocompatible
 set background=dark
 set clipboard=unnamedplus
+set encoding=UTF-8
 syntax on
 
 call plug#begin()
@@ -22,7 +23,12 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " TOOLS
 Plug 'romgrk/barbar.nvim'
+" NERDTREE
 Plug 'preservim/nerdtree'
+Plug 'ryanoasis/vim-devicons'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'PhilRunninger/nerdtree-visual-selection'
+Plug 'PhilRunninger/nerdtree-buffer-ops'
 
 " FUZZY FINDER
 Plug 'nvim-lua/plenary.nvim'
@@ -51,7 +57,7 @@ endif
 
 colorscheme catppuccin       
 
-" NERD TREE KEYBINDINGS
+"NERD TREE KEYBINDINGS
 nnoremap <M-e> :NERDTreeToggle<CR>
 nnoremap <M-f><M-e> :NERDTreeFind<CR>
 
