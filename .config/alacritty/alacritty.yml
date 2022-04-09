@@ -1,6 +1,9 @@
 env:
-  TERM: xterm-256color
+  TERM: alacritty
   LC_ALL: "en_US.UTF-8"
+
+key_bindings:
+  - { key: V, mods: Alt, action: ToggleViMode }
 
 # Catppuccin!
 colors:
