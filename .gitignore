@@ -46,3 +46,11 @@ Android/
 .gitconfig-stoom
 .shell.pre-oh-my-zsh
 .zcompdump-garage-5.8.1
+.config/OpenRGB/
+.config/coc/
+.config/obs-studio/
+.config/pavucontrol.ini
+.config/pulse/
+.config/zoomus.conf
+.zoom/
+st/
