@@ -200,5 +200,5 @@ smart_gaps on
 
 # FLAMESHOT
 #
-bindsym $mod+p exec flameshot gui --clipboard --path $HOME/.screenshots/cropped/
-bindsym $mod+Shift+p exec flameshot full --clipboard --path $HOME/.screenshots/full/
+bindsym $mod+p exec flameshot gui --clipboard --path $HOME/.screenshoots/cropped/
+bindsym $mod+Shift+p exec flameshot full --clipboard --path $HOME/.screenshoots/full/
