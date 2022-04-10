@@ -45,6 +45,11 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+# Start all Emulators on float mode
+# emulator_position = (screen_width//2 - emulator_width//2) - x + emulator_width + 65px + outter gap
+set $emulator_position 689px 
+for_window [title="Android Emulator - *"] floating enable, move right $emulator_position
+
 # start a terminal
 bindsym $mod+Return exec --no-startup-id alacritty 
 
