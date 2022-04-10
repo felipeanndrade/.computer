@@ -202,3 +202,7 @@ bindsym $mod+Shift+p exec flameshot full --clipboard --path $HOME/screenshots/fu
 bindsym $mod+0 exec pactl set-sink-mute @DEFAULT_SINK@ toggle # Mute
 bindsym $mod+minus exec pactl set-sink-volume @DEFAULT_SINK@ -5%  # Up
 bindsym $mod+plus exec pactl set-sink-volume @DEFAULT_SINK@ +5%  # Down
+# need to check which sink id is attached to the output device with
+# $pactl list sinks
+bindsym $mod+] exec pactl set-default-sink 20
+bindsym $mod+[ exec pactl set-default-sink 4
