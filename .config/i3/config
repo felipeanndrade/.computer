@@ -10,7 +10,7 @@
 #
 # monitor config
 
-exec_always --no-startup-id xrandr --output HDMI-A-0 --auto --right-of DVI-D-0
+exec_always --no-startup-id xrandr --output DVI-D-0 --auto --right-of HDMI-A-0
 
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 # execute Polybar
@@ -168,10 +168,10 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 10 px or 10 ppt
-        bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
-        bindsym semicolon resize grow width 10 px or 10 ppt
+        bindsym h resize shrink width 10 px or 10 ppt
+        bindsym j resize grow height 10 px or 10 ppt
+        bindsym k resize shrink height 10 px or 10 ppt
+        bindsym l resize grow width 10 px or 10 ppt
 
         # same bindings, but for the arrow keys
         bindsym Left resize shrink width 10 px or 10 ppt
@@ -198,8 +198,8 @@ smart_gaps on
 
 # FLAMESHOT
 #
-bindsym $mod+p exec flameshot gui --clipboard --path $HOME/.screenshoots/cropped/
-bindsym $mod+Shift+p exec flameshot full --clipboard --path $HOME/.screenshoots/full/
+bindsym $mod+p exec flameshot gui --clipboard --path $HOME/screenshots/cropped/
+bindsym $mod+Shift+p exec flameshot full --clipboard --path $HOME/screenshots/full/
 
 # PULSEAUDIO
 #
