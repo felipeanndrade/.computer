@@ -55,3 +55,13 @@ Android/
 .zoom/
 st/
 .screenshoots/
+config/ranger/
+.config/QtProject.conf
+.config/fcitx/
+.config/flameshot/
+.config/ibus/bus/876c75bd89c64c2299ca1219f8d29335-unix-0
+.config/ibus/bus/876c75bd89c64c2299ca1219f8d29335-unix-wayland-0
+.config/vmpk.sourceforge.net/
+.flutter-devtools/
+.config/dconf/
+.python_history
