@@ -204,5 +204,5 @@ bindsym $mod+minus exec pactl set-sink-volume @DEFAULT_SINK@ -5%  # Up
 bindsym $mod+plus exec pactl set-sink-volume @DEFAULT_SINK@ +5%  # Down
 # need to check which sink id is attached to the output device with
 # $pactl list sinks
-bindsym $mod+] exec pactl set-default-sink 20
-bindsym $mod+[ exec pactl set-default-sink 4
+bindsym $mod+bracketright exec pactl set-default-sink 20
+bindsym $mod+bracketleft exec pactl set-default-sink 4
