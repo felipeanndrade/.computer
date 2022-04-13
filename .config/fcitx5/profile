@@ -4,17 +4,23 @@ Name=Default
 # Layout
 Default Layout=us
 # Default Input Method
-DefaultIM=mozc
+DefaultIM=keyboard-br-sun_type6
 
 [Groups/0/Items/0]
 # Name
-Name=keyboard-us
+Name=mozc
 # Layout
 Layout=
 
 [Groups/0/Items/1]
 # Name
-Name=mozc
+Name=keyboard-br-sun_type6
+# Layout
+Layout=
+
+[Groups/0/Items/2]
+# Name
+Name=keyboard-us
 # Layout
 Layout=
 

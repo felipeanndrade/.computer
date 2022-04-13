@@ -1,0 +1,6 @@
+2022/04/12-13:49:41.309 1e9dc Reusing MANIFEST /home/felps/.config/Postman/Partitions/1d49287e-3df5-4985-b0f8-3481c749939e/IndexedDB/https_desktop.postman.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/04/12-13:49:41.309 1e9dc Recovering log #8
+2022/04/12-13:49:41.316 1e9dc Reusing old log /home/felps/.config/Postman/Partitions/1d49287e-3df5-4985-b0f8-3481c749939e/IndexedDB/https_desktop.postman.com_0.indexeddb.leveldb/000008.log 
+2022/04/13-11:39:26.470 3050c Level-0 table #13: started
+2022/04/13-11:39:26.481 3050c Level-0 table #13: 1277927 bytes OK
+2022/04/13-11:39:26.483 3050c Delete type=0 #8

@@ -15,6 +15,9 @@ call plug#begin()
 
 " STARTUP
 Plug 'mhinz/vim-startify'
+ 
+" INTEGRATED TERMINAL
+Plug 'akinsho/toggleterm.nvim'
 
 " LANGUAGE SERVER AND INDENTATION
 Plug 'sheerun/vim-polyglot'
@@ -54,6 +57,9 @@ Plug 'thosakwe/vim-flutter'
 Plug 'natebosch/vim-lsc'
 Plug 'natebosch/vim-lsc-dart'
 
+" MARKDOWN RELATED
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+
 call plug#end()
 
 let g:lightline = {'colorscheme': 'catppuccin'}
@@ -77,31 +83,53 @@ nnoremap <M-f><M-f> :Telescope find_files<cr>
 nnoremap <silent>    <M-[> :BufferPrevious<CR>
 nnoremap <silent>    <M-]> :BufferNext<CR>
 
-"NERD TREE KEYBINDINGS
+" NERD TREE KEYBINDINGS
 nnoremap <M-e> :NERDTreeToggle<CR>
 nnoremap <M-f><M-e> :NERDTreeFind<CR>
 
-" FLUTTER KEYBINDINGS
+" INTEGRATED TERMINAL KEYBINDINGS
 "
-" run a project
+nnoremap <M-t> :ToggleTerm direction=horizontal<cr>
+
+"" FLUTTER KEYBINDINGS
+ 
+" Devices
 "
-nnoremap <M-f><M-r> :FlutterRun 
-nnoremap <M-f><M-r><M-w> :FlutterRun -d chrome
-nnoremap <M-f><M-r><M-e> :FlutterRun -d linux 
-" Testing to release performance: 
-" flutter run -d web-server --release --dart-define=FLUTTER_WEB_USE_SKIA=true
+nnoremap <M-f><M-d> :FlutterDevices<cr>
+ 
+" Emulators
 "
+nnoremap <M-f><M-e> :FlutterEmulatorsLaunch<cr>
+
+" Run
+"
+nnoremap <M-f><M-r> :FlutterRun<cr> 
+nnoremap <M-f><M-q> :FlutterQuit<cr>
+nnoremap <M-f><M-r><M-w> :FlutterRun -d chrome<cr>
+nnoremap <M-f><M-r><M-e> :FlutterRun -d linux<cr>
+" Use a fisical device
+nnoremap <M-f><M-r><M-r> :FlutterRun --release<cr> 
+nnoremap <M-h><M-r> :FlutterHotRestart<cr>
+nnoremap <M-f><M-s> :FlutterVSplit<cr>
+
 " Open visual debuger
 "
-nnoremap <leader>fD :FlutterVisualDebug<cr>
+nnoremap <M-f><M-v> :FlutterVisualDebug<cr>
+ 
+" MARKDOWN KEYBINDINGS
 "
+nnoremap <M-m> :MarkdownPreview<cr>
+
 " COC KEYBINDINGS
-"
+ 
 " GoTo code navigation.
+"
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
+nmap <silent> g[ <Plug>(coc-diagnostic-prev)
+nmap <silent> g] <Plug>(coc-diagnostic-next)
 
 " Use K to show documentation in preview window.
 nnoremap <silent> K :call <SID>show_documentation()<CR>
@@ -119,16 +147,12 @@ endfunction
 " rn to rename
 nmap <leader>rn <Plug>(coc-rename)
 
-" Applying codeAction to the selected region.
-" Example: `<leader>aap` for current paragraph
-xmap <leader>a  <Plug>(coc-codeaction-selected)
-nmap <leader>a  <Plug>(coc-codeaction-selected)
-
 " Remap keys for applying codeAction to the current buffer.
-nmap <leader>ac  <Plug>(coc-codeaction)
-" Apply AutoFix to problem on the current line.
-nmap <leader>qf  <Plug>(coc-fix-current)
-
+xmap <M-a>  <Plug>(coc-codeaction-selected)
+nmap <M-a>  <Plug>(coc-codeaction-selected)
+" Open list of possible fixe
+nnoremap <M-q><M-f> :CocFix<cr>
+nnoremap <M-c><M-d> :CocList diagnostics<cr>
 " COC FUNCTIONS
 "
 "" Use tab for trigger completion with characters ahead and navigate.

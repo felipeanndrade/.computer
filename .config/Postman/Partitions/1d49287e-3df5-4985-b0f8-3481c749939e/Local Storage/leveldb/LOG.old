@@ -1,0 +1,6 @@
+2022/04/12-12:09:00.799 186e6 Reusing MANIFEST /home/felps/.config/Postman/Partitions/1d49287e-3df5-4985-b0f8-3481c749939e/Local Storage/leveldb/MANIFEST-000001
+2022/04/12-12:09:00.799 186e6 Recovering log #3
+2022/04/12-12:09:00.800 186e6 Reusing old log /home/felps/.config/Postman/Partitions/1d49287e-3df5-4985-b0f8-3481c749939e/Local Storage/leveldb/000003.log 
+2022/04/12-12:29:07.471 19ba1 Level-0 table #5: started
+2022/04/12-12:29:07.472 19ba1 Level-0 table #5: 22544 bytes OK
+2022/04/12-12:29:07.474 19ba1 Delete type=0 #3

@@ -57,7 +57,7 @@ bindsym $mod+Return exec --no-startup-id alacritty
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec "rofi -modi drun,run -show drun"
+bindsym $mod+Escape exec "rofi -modi drun,run -show drun"
 
 # change focus
 bindsym $mod+h focus left
@@ -204,5 +204,5 @@ bindsym $mod+minus exec pactl set-sink-volume @DEFAULT_SINK@ -5%  # Up
 bindsym $mod+plus exec pactl set-sink-volume @DEFAULT_SINK@ +5%  # Down
 # need to check which sink id is attached to the output device with
 # $pactl list sinks
-bindsym $mod+bracketright exec pactl set-default-sink 20
-bindsym $mod+bracketleft exec pactl set-default-sink 4
+bindsym $mod+bracketright exec pactl set-default-sink 0
+bindsym $mod+bracketleft exec pactl set-default-sink 1
